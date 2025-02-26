@@ -112,7 +112,7 @@ a:hover {
     
     nav {
         display: flex;
-        flex-direction: column; /* Stack navbar items vertically */
+        flex-direction: row; /* Stack navbar items vertically */
         align-items: center;
     }
     nav a {
