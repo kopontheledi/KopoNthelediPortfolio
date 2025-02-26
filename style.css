@@ -151,6 +151,10 @@ a:hover {
     .type-animation-container p {
         font-size: 1rem;
     }
+    img {
+        justify-items: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -180,4 +184,8 @@ a:hover {
     .type-animation-container p {
         font-size: 0.9rem;
     }
+    img {
+        justify-items: center;
+        align-items: center;
+}
 }
