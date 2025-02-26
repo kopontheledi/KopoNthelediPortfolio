@@ -8,6 +8,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     font-size: 16px;
+    padding-top: 80px;
 }
 
 /* Header */
@@ -106,12 +107,19 @@ a:hover {
 @media (max-width: 768px) {
     /* Mobile Layout for Header */
     header {
-        padding: 10px;
+        padding: 10px 0;
     }
     
     nav {
-        flex-direction: column;
-        gap: 10px;
+        display: flex;
+        flex-direction: column; /* Stack navbar items vertically */
+        align-items: center;
+    }
+    nav a {
+        margin: 10px 0; /* Add spacing between links on mobile */
+    }
+    body {
+        padding-top: 70px; /* Adjust for smaller navbar height */
     }
     
     /* Intro Section Adjustments */
